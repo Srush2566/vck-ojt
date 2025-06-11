@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -16,6 +14,7 @@ import NotFoundPage from './pages/NotFoundPage';
 import Header from './components/Header/Headers';
 //Footer
 import Footer from "./components/Footer/Footers";
+import ChatbotComponent from './components/Chatbot/ChatbotComponents';
 
 
 function App() {
@@ -33,9 +32,10 @@ function App() {
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
+      <ChatbotComponent/>
       <Footer/>
     </Router>
-  );
+    );
 }
 
 export default App;
