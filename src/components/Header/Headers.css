@@ -15,7 +15,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: #3b4de9; /* or your header bg color */
+  background-color: blue; /* or your header bg color */
   z-index: 1000; /* Make sure header is above other content */
   width: full;
 }
@@ -126,4 +126,8 @@
     width: 100%;
     padding: 1rem;
   }
+}
+
+.a{
+  background-color: aqua;
 }

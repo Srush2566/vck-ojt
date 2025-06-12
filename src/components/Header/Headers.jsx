@@ -17,6 +17,7 @@ const Headers = () => {
 
   return (
     <header className="header">
+      <div className="a">
       <div className="header-container">
         <h1 className="logo">Vivekanand College</h1>
 
@@ -40,6 +41,7 @@ const Headers = () => {
         <Link to="/contact" onClick={closeMenu} className="mobile-link">Contact</Link>
         <Link to="/apply" onClick={closeMenu} className="mobile-apply">Apply Now!</Link>
       </div>
+     </div> 
     </header>
   );
 };
