@@ -7,7 +7,7 @@ const ContactPage = () => {
 
   <div style={{ padding: '1rem' }} className="home-scroll-container">
      
-    <h1 className='h1'>Contact Us</h1>
+   <strong> <h1 className='new'>Contact Us</h1></strong>
     <p>We'd love to hear from you! Whether you have questions about admissions , programs, or campus life, our team is here to help.</p>
      <h2>General Enquiries</h2>
     <p>

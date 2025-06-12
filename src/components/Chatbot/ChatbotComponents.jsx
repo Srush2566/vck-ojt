@@ -163,7 +163,7 @@ const ChatbotComponent = () => {
                 </p>
               </div>
             )}
-            {!isOnline && (
+             {!isOnline && (
               <p className="chatbot-message offline-message">
                 :no_entry_sign:: You are currently offline. Please check your internet
                 connection.

@@ -28,17 +28,17 @@ textarea {
 }
 
 .cta-button {
-  background-color: #007bff;
+  text-align: center;
+  background-color:green;
   color: white;
-  padding: 0.6rem 1.2rem;
   border: none;
-  border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
 }
 
 .cta-button:hover {
-  background-color: #0056b3;
+  background-color: greenyellow;
+  text-align: center;
 }
 .home-scroll-container {
           
