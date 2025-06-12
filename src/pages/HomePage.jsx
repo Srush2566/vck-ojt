@@ -5,7 +5,7 @@ import './HomePage.css';
 
 const HomePage = () => {
   const [showForm, setShowForm] = useState(false);
-  <div className="demo"></div>
+  <div className="page-container"></div>
 
   return (
     <div className="home-scroll-container">
@@ -22,7 +22,7 @@ const HomePage = () => {
         <p>At Vivekanand College, we believe in a vibrant learning environment that extends beyond textbooks. Our state-of-the-art facilities, experienced faculty, and diverse student community create a unique ecosystem where curiosity thrives and future leaders are shaped.</p>
      
       <div>  
-        <h2>Why Choose Vivekanand College?</h2>
+        <h1>Why Choose Vivekanand College?</h1>
         <ul>
           <li><strong>Legacy of Excellence:</strong> Decades of commitment to quality education.</li>
           <li><strong>Experienced Faculty:</strong> Learn from renowned experts and passionate educators.</li>

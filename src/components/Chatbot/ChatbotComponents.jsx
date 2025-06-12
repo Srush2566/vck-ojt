@@ -148,7 +148,7 @@ const ChatbotComponent = () => {
           <>
             <div className="chatbot-header">
               <span role="img" aria-label="Chatbot icon">
-                :robot_face:
+                🤖🧑‍🦰❌
               </span>
               <h2>Educational Chatbot</h2>
               <button className="chatbot-close-button" onClick={toggleChat}>
