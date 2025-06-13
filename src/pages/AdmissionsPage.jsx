@@ -51,7 +51,7 @@ const Admissions = () => {
       </ol>
 
       <p>
-        For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <Link to="/courses">Courses page</Link> or <Link to="/contact">Contact us</Link> directly.
+        "For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <Link to="/courses">Courses page</Link> "or" <Link to="/contact">Contact us</Link> "directly."
       </p>
     </div>
   );
