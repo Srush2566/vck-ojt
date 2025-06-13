@@ -1,6 +1,7 @@
 import React from 'react';
 import './AdmissionsPage.css';
 import { Link } from 'react-router-dom';
+import Footer from '../components/Footer/Footers';
 
 const Admissions = () => {
   return (
@@ -51,7 +52,7 @@ const Admissions = () => {
       </ol>
 
       <p>
-        "For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <Link to="/courses">Courses page</Link> "or" <Link to="/contact">Contact us</Link> "directly."
+        "For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <Link to="/courses" data-discover="true">Courses page</Link> "or" <Link to="/contact" data-discover="true">Contact us</Link> "directly."
       </p>
     </div>
   );
