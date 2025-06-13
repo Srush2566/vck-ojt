@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header/Headers';
 import Footer from "../components/Footer/Footers";
 import './CoursesPage.css'
+import { Link } from 'react-router-dom';
 const CoursesPage = () => { 
     return(
   
@@ -48,8 +49,8 @@ const CoursesPage = () => {
       <li><strong>Master of Commerce (M.Com)</strong> (2 years)</li>
       <li><strong>Master of Arts (M.A.)</strong> (2 years)</li>
     </ul>
-    <div class="container">
-    <h2 class="custom-table-style">Program Details & Fee Structure (Annual)</h2>
+    <div className="container">
+    <h2 className="custom-table-style">Program Details & Fee Structure (Annual)</h2>
   <table className="custom-table-style">
     <thead>
       <tr>
@@ -89,11 +90,11 @@ const CoursesPage = () => {
     <p>
       In addition to traditional degree programs, we offer various certificate and diploma courses in areas like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing specialized training for career enhancement.
     </p>
- <h5 class="note">
+ <h5 className="note">
       Explore detailed syllabi and admission criteria on our Admissions page.
     </h5>
 
-    <a href='/contact' ><h3 class="cta-button">Enquire About Courses</h3></a>
+    <Link to='/contact' className="cta-button"> Enquire About Courses</Link>
     
   </div>
 

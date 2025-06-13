@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import Header from "../components/Header/Headers";
 import Footer from "../components/Footer/Footers";
 import'./HomePage.css'
+import { Link } from "react-router-dom";
 const HomePage = () => {
   const [showForm, setShowForm] = useState(false);
   return(
+    
     <div className="home-scroll-container">
       <div className="hero-section">
         <img src="/Images/collegebanner.png" alt="college" className="hero-image" />
@@ -30,7 +32,7 @@ const HomePage = () => {
           <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
         <p className="home-subtext">Ready to start your journey with us?</p>
         <div className="button-wrapper">
-        <a href="/courses" className="my-button" onClick={() => setShowForm(true)}>Exoplore courses!</a>
+        <Link to="/courses" className="my-button">Exoplore courses!</Link>
         {/* Future: Admission Form Component */}
         {/* {showForm && <AdmissionForm />} */}
       </div>
