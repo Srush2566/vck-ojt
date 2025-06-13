@@ -19,7 +19,7 @@
 
 .small-text {
   font-size: 0.95rem;
-  font-style: italic;
+  font-style: bold;
   color: #666;
 }
 
@@ -48,4 +48,10 @@ li {
   
   font-family: Arial, sans-serif;
   color: #333;
+}
+
+.new{
+  text-align: center;
+  color: blue;
+  size: bold;
 }
